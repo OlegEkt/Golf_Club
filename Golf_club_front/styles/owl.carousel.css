@@ -1,0 +1,56 @@
+
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel
+{
+    display: none;
+    width: 100%;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;    
+    position: relative;
+    z-index: 1;
+}
+.owl-carousel .owl-stage
+{
+    position: relative;    
+    width: 100%;
+    height: 100%;
+    
+}
+.owl-carousel .owl-stage-outer
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;    
+}
+.owl-carousel .owl-item
+{
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    height: 100%;
+    float: left;    
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+.owl-carousel .owl-item img
+{
+    display: block;
+    width: 100%;
+}
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled
+{
+    display: none;
+}
+.owl-carousel.owl-loaded
+{
+    display: block;
+}
+.owl-carousel.owl-loading
+{
+    opacity: 0;
+    display: block;
+}
